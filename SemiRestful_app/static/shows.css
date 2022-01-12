@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    margin: 0px auto;
+    width: 1000px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+   
+    
+    
+}
+
+table{
+    width: 900px;
+    margin-bottom: 30px;
+}
+
+thead{
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}

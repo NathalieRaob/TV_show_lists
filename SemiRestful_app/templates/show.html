@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'create.css' %}">
+    <title>Read (one)</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>TV Show {{ show.id }}</h1>
+        <a href="/">Go Back</a>
+        <h3>Title:</h3>  {{ show.title }}
+        <h3>Network: </h3>  {{ show.network }}
+        <h3>Release Date: </h3>  {{ show.release_date }}
+        <h3>Description: </h3>   {{ show.description }}
+        <div id="link">
+            <a href="/{{ show.id }}/edit">Edit</a> |
+            <a href="/{{ show.id }}/delete">Delete</a>
+        </div>
+        
+       
+    </div>
+</body>
+</html>

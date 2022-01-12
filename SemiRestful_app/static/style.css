@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    margin: 0px auto;
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+
+#forms{
+    display: flex;
+    margin-left: 40px;
+
+}
+
+a{
+    display: inline-block;
+    margin-left: 500px;
+    vertical-align: top;
+}
+h1{
+    display: inline-block;
+    margin-right: 530px;
+    font-family: monospace;
+    font-size: 50px;
+    
+}
+
+label{
+    margin-right: 20px;
+}
+
+button{
+    margin-right: 20px;
+}
